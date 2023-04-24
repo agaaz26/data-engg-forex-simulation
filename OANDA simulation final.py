@@ -4,9 +4,8 @@ Created on Tue Apr 18 13:54:48 2023
 
 @author: agaaz
 """
-# Data Engineering Spring 2023 Homework 4
 
-# Atul Manjunath Bharadwaj (am11449) and Agaaz Oberoi (ao2460)
+
 
 import time
 import pandas as pd
@@ -17,8 +16,8 @@ from oandapyV20.endpoints.pricing import PricingInfo
 from time import sleep
 import pytz
 
-api_key = "57694390ebf17607dab1aa18a815fefa-80ed719161214e8d9013d6645dbb0bec"
-account_id = "101-001-25498349-003"
+api_key = "****************"
+account_id = "********"
 client = API(access_token=api_key)
 
 def get_current_price(instrument):
